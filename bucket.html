@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="DSA1.css">
+</head>
+<style>
+	button {
+  margin: 20px;
+}
+
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.btn-3 {
+  background: rgb(0, 172, 238);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 172, 238, 1) 0%,
+    rgba(2, 126, 251, 1) 100%
+  );
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.btn-3 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-3:before,
+.btn-3:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+  background: rgba(2, 126, 251, 1);
+  transition: all 0.3s ease;
+}
+.btn-3:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-3:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-3:hover {
+  background: transparent;
+  box-shadow: none;
+}
+.btn-3:hover:before {
+  height: 100%;
+}
+.btn-3:hover:after {
+  width: 100%;
+}
+.btn-3 span:hover {
+  color: rgba(2, 126, 251, 1);
+}
+.btn-3 span:before,
+.btn-3 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  background: rgba(2, 126, 251, 1);
+  transition: all 0.3s ease;
+}
+.btn-3 span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-3 span:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-3 span:hover:before {
+  height: 100%;
+}
+.btn-3 span:hover:after {
+  width: 100%;
+}
+
+
+.name {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+  .subname {
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+  .price {
+    padding: 1rem 0;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .description p{
+    font-size: 14px;
+  line-height: 18px;
+  color: #444;
+  letter-spacing: .3px;
+  margin-top: 10px;
+  width: 430px;
+  height: 71px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: no-wrap;
+  }
+
+</style>
+<body>
+    <div class="split left">
+        <!--2nd HTML-->
+        <div class="column">
+			<img id=featured src="bucket1.jpg" >
+
+			<div id="slide-wrapper" >
+				<img id="slideLeft" class="arrow" src="arrow-left.png">
+
+				<div id="slider">
+					<img class="thumbnail" src="bucket1.jpg" >
+					<img class="thumbnail" src="bucket2.jpg" >
+					<img class="thumbnail" src="bucket3.jpg" >
+					<img class="thumbnail" src="bucket4.jpg" >
+					<img class="thumbnail" src="bucket5.jpg" >
+          <img class="thumbnail" src="bucket6.jpg" >
+					
+					
+
+					<img class=>
+					<!--<img class="thumbnail" src="images/preset2.jpg">
+					<img class="thumbnail" src="images/preset3.jpg">
+					<img class="thumbnail" src="images/preset4.jpg"-->
+				</div>
+                <img id="slideRight" class="arrow" src="arrow-right.png">
+			</div>
+		</div>
+        
+    
+        
+      
+    </div>
+    
+    <div class="split right">
+    <div id="content-wrapper">  
+        <div class="column1">
+			<div class="name">Super Bucket 16 Set, 4 pc Bucket 16 LTR, Pink Blue Color, Made in India</div>
+    		<div class="subname">BUCKET</div>
+    		<div class="price">₹1150</div>
+			<div class="description">
+				<p>
+          Market Fairy Plastic Bucket is made of quality plastic material. This has a strong, sturdy body and beautiful design. You can use it to storing water and other liquid
+This bucket is very handy while using it for cleaning your floor. This bucket comes with comfortable handle for easy grip 
+				</p>
+        <h3>About this item</h3>
+				<ul>
+          <li>Brand:	JEERZONE</li>
+            <li>Colour:	PINK</li>
+            <li>Material:	Plastic</li>
+            <li>Handle Material:	Plastic</li>
+            <li>Weight:	1500 Grams</li>
+            
+            
+        </ul>
+				</div>
+
+			
+			<a href="#"><button class="custom-btn btn-3"><span>Add to Cart</span></button></a>
+			<a href="#"><button class="custom-btn btn-3"><span>Buy Now</span></button></a>
+		</div>
+		
+		
+      
+    </div>
+	<div class="column2">
+	 
+    
+    <h3>Product details</h3>
+    <br>Date First Available : 23 April 2021</br>
+    <br> Manufacturer : JEERZONE</br>
+    <br>ASIN : B093CJK495</br>
+    <br>Item model number : 514-524</br>
+    <br>Country of Origin : India</br>
+    <br>Manufacturer : JEERZONE</br>
+    <br>Generic Name : 514-524_JEERZONE</br>
+     </div>
+	
+    </div>
+
+		
+
+    <!--JAVASCRIPT-->
+    <script type="text/javascript">
+		let thumbnails = document.getElementsByClassName('thumbnail')
+
+		let activeImages = document.getElementsByClassName('active')
+
+		for (var i=0; i < thumbnails.length; i++){
+
+			thumbnails[i].addEventListener('mouseover', function(){
+				console.log(activeImages)
+				
+				if (activeImages.length > 0){
+					activeImages[0].classList.remove('active')
+				}
+				
+
+				this.classList.add('active')
+				document.getElementById('featured').src = this.src
+			})
+		}
+
+
+		let buttonRight = document.getElementById('slideRight');
+		let buttonLeft = document.getElementById('slideLeft');
+
+		buttonLeft.addEventListener('click', function(){
+			document.getElementById('slider').scrollLeft -= 180
+		})
+
+		buttonRight.addEventListener('click', function(){
+			document.getElementById('slider').scrollLeft += 180
+		})
+
+
+	</script>
+         
+</body>
+</html>
