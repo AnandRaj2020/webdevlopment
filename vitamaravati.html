@@ -1,0 +1,209 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="{% static '/css/college.css' %}" />
+    <style>
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+      }
+    </style>
+    <title>VIT-AMARAVATI</title>
+    
+  </head>
+  <body>
+    {% include 'college_app/navbar.html' %}
+
+    <!-- Page content-->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-8">
+          <!-- Post content-->
+          <article>
+            <!-- Post header-->
+            <header class="mb-4">
+              <!-- Post title-->
+              <h1 class="fw-bolder mb-1" >
+                Vellore Institute of Technology - amaravati 
+              </h1>
+              <!-- Post meta content-->
+              <div class="text-muted fst-italic mb-2">
+                Posted on December 11, 2021 by Start Bootstrap
+              </div>
+              <!-- Post categories-->
+              <a
+                class="badge bg-secondary text-decoration-none link-light"
+                href="#!"
+                >Web Design</a
+              >
+              <a
+                class="badge bg-secondary text-decoration-none link-light"
+                href="#!"
+                >Freebies</a
+              >
+            </header>
+            <!-- Preview image figure-->
+            <figure class="mb-4">
+              <img
+                class="img-fluid rounded"
+                src="{% static '/images/vitamaravati.jpg' %}"
+                alt="..."
+              />
+            </figure>
+            <br>
+            <br>
+            <!-- Post content-->
+            <section class="mb-5">
+              <center><h1 class="fw-bolder mb-4 mt-5">ABOUT COLLEGE</h1></center>
+              <p class="fs-5 mb-4">
+               
+                VIT-AP University is a private university located in Amaravati, the capital of Andhra Pradesh, India. It is the first university located in the capital region. VIT-AP was established as the third campus of Vellore Institute of Technology
+              </p>
+              <p class="fs-5 mb-4">
+                With a history of 32 years of innovation in educational and research domain, VIT  has been a forerunner in delivering quality education. Consistently ranked among the top educational institutes in the country, the VIT group of institutions have had a proud tradition of pursuing knowledge and excellence. In keeping with this tradition,  the leadership at VIT-AP resonates a dynamic blend of academic initiative and industry partnership with a vision of creating one of the finest academic destinations in the world.  The VIT-AP campus, which is poised to become one of the country’s best campuses, offers several avenues to explore your interests, identify core competencies, and engage in an evolving lifecycle of education and growth. It is a place where
+              </p>
+              <h2 class="fw-bolder mb-4 mt-5">Placements</h2>
+              <p class="fs-5 mb-4">
+                The placement season at VIT AP University is going on yet over 7,000 offers have been given to 4,492 students in 544 companies. The highest package so far is Rs 41.6 LPA and the average CTC is Rs 7.25 LPA.
+
+The placement season of 2018-19 was also incredible as over 600 visited the campus for recruitment of students. Last year, the highest offer made was 39 lakhs per year by Microsoft.
+
+Many reputed companies such as Intel, eBay, Amazon, Dell, GE, Texas Instruments, Schneider Electric, DE Shaw & Co, Hitachi, HP, PayPal, Tata Motors, L&T, Dr. Reddy’s, Bosch, Deloitte, Morgan Stanley, Qualcomm, Ashok Leyland, Honda, Ford, Global Analytics, TCS, Cognizant, Accenture, Wipro and Infosys have participated in hiring from VIT.
+              </p>
+             
+              
+              
+             
+              
+              
+              <figure class="mb-4">
+                <img
+                  class="img-fluid rounded"
+                  src="{% static '/images/vitamaravati_fee.png' %}"
+                  alt="..."
+                />
+              </figure>
+              <br><br>
+              <h2 class="fw-bolder mb-4 mt-5">Campus Tour</h2>
+              <div class="embed-responsive embed-responsive-4by3" >
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/cGrpPHuq_Sc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </section>
+          </article>
+          <h2 class="fw-bolder mb-4 mt-5">links</h2>
+              <p class="fs-5 mb-4"><ul>
+                <li><a href="https://vitap.ac.in/" target="_blank">GO TO VIT-AMARAVATI.COM</a></li><br>
+                <li><a href="https://www.google.com/maps/place/VIT-AP+University/@16.4962777,80.5006676,15z/data=!4m5!3m4!1s0x0:0x1490eacd54859850!8m2!3d16.4962777!4d80.5006676"target="_blank">GO TO VIT-AMARAVATI LOCATION</a></li>
+              </ul></p>
+          <!-- Comments section-->
+          <section class="mb-5"></section>
+        </div>
+        <!-- Side widgets-->
+        <div class="col-lg-4">
+          <!-- Search widget-->
+          <!-- <div class="card mb-4">
+            <div class="card-header">Search</div>
+            <div class="card-body">
+              <div class="input-group">
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Enter search term..."
+                  aria-label="Enter search term..."
+                  aria-describedby="button-search"
+                />
+                <button
+                  class="btn btn-primary"
+                  id="button-search"
+                  type="button"
+                >
+                  Go!
+                </button>
+              </div>
+            </div>
+          </div> -->
+          <!-- Categories widget-->
+          <div class="card mb-4">
+            <div class="card-header">Categories</div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-sm-6">
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a
+                        class="
+                          badge
+                          bg-secondary
+                          text-decoration-none
+                          link-light
+                        "
+                        href="#!"
+                        >IIT</a
+                      >
+                    </li>
+                    <li><a href="https://vitap.ac.in/campus-life/overview/" target="_blank">Campus</a></li>
+                    <li><a href="https://vitap.ac.in/hostels/" target="_bank">Hostel</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-6">
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a
+                        class="
+                          badge
+                          bg-secondary
+                          text-decoration-none
+                          link-light
+                        "
+                        href="#!"
+                        >b-tech</a
+                      >
+                    </li>
+                    <li><a href="#" target="_blank">engineering</a></li>
+                    <li><a href="https://vitap.ac.in/programmes-offered/" target="_blank">courses</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Side widget-->
+          <!-- <div class="card mb-4">
+            <div class="card-header">Side Widget</div>
+            <div class="card-body">
+              You can put anything you want inside of these side widgets. They
+              are easy to use, and feature the Bootstrap 5 card component!
+            </div>
+          </div> -->
+          <div class="card mb-4">
+            <div class="card-header">Placements</div>
+            <div class="card-body">
+              <h6>The highest package so far is Rs 41.6 LPA and the average CTC is Rs 7.25 LPA.</h6><br>
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer-->
+    <footer class="py-3 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Website 2021</p>
+      </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+  </body>
+</html>
