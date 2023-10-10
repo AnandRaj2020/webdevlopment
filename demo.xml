@@ -1,0 +1,11 @@
+<?xml version= "1.0" encoding = "ISO-8859-1"?>
+<class-list>
+    <student>
+        <name>Anamika</name>
+        <grade>A+</grade>
+    </student>
+    <student>
+        <name>Veena</name>
+        <grade>B+</grade>
+    </student>
+</class-list>
