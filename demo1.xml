@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type = "text/xsl" href = "demo.xsl"?>
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="demo1.xsd">
+    <person>
+        <firstname>votarikari </firstname>
+        <lastname>shravan </lastname>
+        <id>912</id>
+        <skills>
+            <item> java</item>
+            <item> sql</item>
+            <item> appconnect</item>
+        </skills>
+    </person>
+</data>
